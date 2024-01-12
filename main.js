@@ -79,8 +79,8 @@ else
 
 		renderer = new t.WebGLRenderer({antialias: true, depthBuffer: true});
 		renderer.setPixelRatio(pixR);
-	    
-	  	world = new t.Object3D();
+	
+		world = new t.Object3D();
 		scene.add(world);
 
 		renderer.domElement.setAttribute("id", "scene");
